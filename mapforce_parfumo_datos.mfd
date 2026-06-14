@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Edited with Altova MapForce 2024r2sp1 -->
+<mapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="22">
+	<resources/>
+	<component name="defaultmap" uid="1" editable="1" blackbox="0">
+		<properties SelectedLanguage="builtin"/>
+		<structure>
+			<children>
+				<component name="id" library="user" uid="18" kind="19" visible="0" blackbox="0">
+					<view ltx="562" lty="82" rbx="610" rby="99"/>
+					<data>
+						<root>
+							<header>
+								<namespaces/>
+							</header>
+						</root>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="id" outkey="62" componentid="17"/>
+						</root>
+					</data>
+				</component>
+				<component name="perfumes" library="xml" uid="5" kind="14">
+					<properties XSLTTargetEncoding="UTF-8" XSLTDefaultOutput="1"/>
+					<view ltx="946" lty="82" rbx="1143" rby="450"/>
+					<data>
+						<root scrollposition="1">
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1" casttotargettypemode="cast-in-subtree">
+									<entry name="perfumes" expanded="1">
+										<entry name="perfume" inpkey="67" expanded="1">
+											<entry name="id" inpkey="6"/>
+											<entry name="brand" inpkey="68"/>
+											<entry name="name" inpkey="69"/>
+											<entry name="year" inpkey="13"/>
+											<entry name="concentration" inpkey="22"/>
+											<entry name="main_accords" expanded="1">
+												<entry name="accord" inpkey="37"/>
+											</entry>
+											<entry name="notes" expanded="1">
+												<entry name="top_notes" expanded="1">
+													<entry name="note" inpkey="57"/>
+												</entry>
+												<entry name="middle_notes" expanded="1">
+													<entry name="note" inpkey="59"/>
+												</entry>
+												<entry name="base_notes" expanded="1">
+													<entry name="note" inpkey="61"/>
+												</entry>
+											</entry>
+										</entry>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<document schema="perfumes.xsd" instanceroot="{}perfumes" inputinstance="perfumes.xml" outputinstance="perfumes.xml"/>
+					</data>
+				</component>
+				<component name="release_year" library="user" uid="27" kind="19" visible="0" blackbox="0">
+					<view ltx="562" lty="185" rbx="656" rby="202"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="value" inpkey="63" componentid="25"/>
+						</root>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="year" outkey="64" componentid="26"/>
+						</root>
+					</data>
+				</component>
+				<component name="concentration" library="user" uid="42" kind="19" visible="0" blackbox="0">
+					<view ltx="562" lty="234" rbx="727" rby="251"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="valuetrue" inpkey="65" componentid="40"/>
+						</root>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="concentration" outkey="66" componentid="41"/>
+						</root>
+					</data>
+				</component>
+				<component name="accords" library="user" uid="59" kind="19" visible="0" blackbox="0">
+					<view ltx="562" lty="289" rbx="668" rby="306"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="input" inpkey="70" componentid="57"/>
+						</root>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="accord" outkey="71" componentid="58"/>
+						</root>
+					</data>
+				</component>
+				<component name="top_notes" library="user" uid="75" kind="19" visible="0" blackbox="0">
+					<view ltx="562" lty="343" rbx="658" rby="360"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="input" inpkey="75" componentid="73"/>
+						</root>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="note" outkey="76" componentid="74"/>
+						</root>
+					</data>
+				</component>
+				<component name="middle_notes" library="user" uid="82" kind="19" visible="0" blackbox="0">
+					<view ltx="562" lty="400" rbx="658" rby="417"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="input" inpkey="77" componentid="80"/>
+						</root>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="note" outkey="78" componentid="81"/>
+						</root>
+					</data>
+				</component>
+				<component name="base_notes" library="user" uid="89" kind="19" visible="0" blackbox="0">
+					<view ltx="562" lty="463" rbx="658" rby="480"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="input" inpkey="79" componentid="87"/>
+						</root>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+								</namespaces>
+							</header>
+							<entry name="note" outkey="80" componentid="88"/>
+						</root>
+					</data>
+				</component>
+				<component name="parfumo_datos_preprocessed" library="text" uid="91" kind="16">
+					<properties/>
+					<view ltx="67" lty="82" rbx="362" rby="282"/>
+					<data>
+						<root>
+							<header>
+								<namespaces>
+									<namespace/>
+									<namespace uid="http://www.altova.com/mapforce"/>
+								</namespaces>
+							</header>
+							<entry name="FileInstance" ns="1" expanded="1">
+								<entry name="document" ns="1" expanded="1">
+									<entry name="Rows" outkey="81" expanded="1">
+										<entry name="Name" outkey="82"/>
+										<entry name="Brand" outkey="83"/>
+										<entry name="Release Year" outkey="84"/>
+										<entry name="Concentration" outkey="85"/>
+										<entry name="Main Accords" outkey="86"/>
+										<entry name="Top Notes" outkey="87"/>
+										<entry name="Middle Notes" outkey="88"/>
+										<entry name="Base Notes" outkey="89"/>
+									</entry>
+								</entry>
+							</entry>
+						</root>
+						<text type="csv" encoding="1000" byteorder="1" byteordermark="0" inputinstance="parfumo_datos_preprocessed.csv">
+							<settings separator="," quote="&quot;" firstrownames="true" removeempty="true">
+								<names root="parfumo_datos_preprocessed" block="Rows">
+									<field0 name="Name" type="string"/>
+									<field1 name="Brand" type="string"/>
+									<field2 name="Release Year" type="string"/>
+									<field3 name="Concentration" type="string"/>
+									<field4 name="Main Accords" type="string"/>
+									<field5 name="Top Notes" type="string"/>
+									<field6 name="Middle Notes" type="string"/>
+									<field7 name="Base Notes" type="string"/>
+								</names>
+							</settings>
+						</text>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="62">
+						<edges>
+							<edge vertexkey="6"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="64">
+						<edges>
+							<edge vertexkey="13"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="66">
+						<edges>
+							<edge vertexkey="22"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="71">
+						<edges>
+							<edge vertexkey="37"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="76">
+						<edges>
+							<edge vertexkey="57"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="78">
+						<edges>
+							<edge vertexkey="59"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="80">
+						<edges>
+							<edge vertexkey="61"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="84">
+						<edges>
+							<edge vertexkey="63"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="85">
+						<edges>
+							<edge vertexkey="65"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="81">
+						<edges>
+							<edge vertexkey="67"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="83">
+						<edges>
+							<edge vertexkey="68"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="82">
+						<edges>
+							<edge vertexkey="69"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="86">
+						<edges>
+							<edge vertexkey="70"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="87">
+						<edges>
+							<edge vertexkey="75"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="88">
+						<edges>
+							<edge vertexkey="77"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="89">
+						<edges>
+							<edge vertexkey="79"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+	<component name="id" library="user" uid="13" inline="1" editable="1" blackbox="0">
+		<structure>
+			<children>
+				<component name="id" library="core" uid="17" kind="7">
+					<sources>
+						<datapoint pos="0" key="6"/>
+					</sources>
+					<view ltx="804" lty="168" rbx="842" rby="206"/>
+					<data>
+						<output datatype="string"/>
+						<parameter usageKind="output" name="id"/>
+					</data>
+				</component>
+				<component name="concat" library="core" uid="14" kind="5" growable="1" growablebasename="value">
+					<sources>
+						<datapoint pos="0" key="5"/>
+						<datapoint pos="1" key="3"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1"/>
+					</targets>
+					<view ltx="599" lty="168" rbx="681" rby="224"/>
+				</component>
+				<component name="auto-number" library="core" uid="15" kind="5">
+					<sources>
+						<datapoint/>
+						<datapoint/>
+						<datapoint/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2"/>
+					</targets>
+					<view ltx="354" lty="213" rbx="496" rby="299"/>
+				</component>
+				<component name="constant" library="core" uid="16" kind="2">
+					<targets>
+						<datapoint pos="0" key="4"/>
+					</targets>
+					<view ltx="354" lty="115" rbx="479" rby="132"/>
+					<data>
+						<constant value="parfumo_datos_" datatype="string"/>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="2">
+						<edges>
+							<edge vertexkey="3"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="4">
+						<edges>
+							<edge vertexkey="5"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="1">
+						<edges>
+							<edge vertexkey="6"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+	<component name="release_year" library="user" uid="22" inline="1" editable="1" blackbox="0">
+		<structure>
+			<children>
+				<component name="value" library="core" uid="25" kind="6">
+					<sources>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="6"/>
+					</targets>
+					<view ltx="277" lty="150" rbx="361" rby="188"/>
+					<data>
+						<input datatype="string"/>
+						<parameter usageKind="input" name="value"/>
+					</data>
+				</component>
+				<component name="numeric" library="lang" uid="24" kind="5">
+					<sources>
+						<datapoint pos="0" key="1"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="4"/>
+					</targets>
+					<view ltx="452" lty="122" rbx="528" rby="160"/>
+				</component>
+				<component name="if-else" library="core" uid="23" kind="4">
+					<sources>
+						<datapoint pos="0" key="5"/>
+						<datapoint pos="1" key="3"/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2"/>
+					</targets>
+					<view ltx="629" lty="150" rbx="733" rby="223"/>
+				</component>
+				<component name="year" library="core" uid="26" kind="7">
+					<sources>
+						<datapoint pos="0" key="7"/>
+					</sources>
+					<view ltx="863" lty="150" rbx="912" rby="188"/>
+					<data>
+						<output datatype="anyType"/>
+						<parameter usageKind="output" name="year"/>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="6">
+						<edges>
+							<edge vertexkey="1"/>
+							<edge vertexkey="3"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="4">
+						<edges>
+							<edge vertexkey="5"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2">
+						<edges>
+							<edge vertexkey="7"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+	<component name="concentration" library="user" uid="36" inline="1" editable="1" blackbox="0">
+		<structure>
+			<children>
+				<component name="not-equal" library="core" uid="39" kind="5">
+					<sources>
+						<datapoint pos="0" key="1"/>
+						<datapoint pos="1" key="6"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="2"/>
+					</targets>
+					<view ltx="467" lty="103" rbx="545" rby="157"/>
+				</component>
+				<component name="constant" library="core" uid="37" kind="2">
+					<targets>
+						<datapoint pos="0" key="5"/>
+					</targets>
+					<view ltx="361" lty="173" rbx="422" rby="190"/>
+					<data>
+						<constant value="N/A" datatype="string"/>
+					</data>
+				</component>
+				<component name="valuetrue" library="core" uid="40" kind="6">
+					<sources>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="9"/>
+					</targets>
+					<view ltx="127" lty="173" rbx="232" rby="211"/>
+					<data>
+						<input datatype="string"/>
+						<parameter usageKind="input" name="valuetrue"/>
+					</data>
+				</component>
+				<component name="if-else" library="core" uid="38" kind="4">
+					<sources>
+						<datapoint pos="0" key="3"/>
+						<datapoint pos="1" key="7"/>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="4"/>
+					</targets>
+					<view ltx="620" lty="160" rbx="724" rby="233"/>
+				</component>
+				<component name="concentration" library="core" uid="41" kind="7">
+					<sources>
+						<datapoint pos="0" key="8"/>
+					</sources>
+					<view ltx="876" lty="160" rbx="976" rby="198"/>
+					<data>
+						<output datatype="anyType"/>
+						<parameter usageKind="output" name="concentration"/>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="9">
+						<edges>
+							<edge vertexkey="1"/>
+							<edge vertexkey="7"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="2">
+						<edges>
+							<edge vertexkey="3"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="5">
+						<edges>
+							<edge vertexkey="6"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="4">
+						<edges>
+							<edge vertexkey="8"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+	<component name="accords" library="user" uid="53" inline="1" editable="1" blackbox="0">
+		<structure>
+			<children>
+				<component name="input" library="core" uid="57" kind="6">
+					<sources>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="7"/>
+					</targets>
+					<view ltx="126" lty="125" rbx="211" rby="163"/>
+					<data>
+						<input datatype="string"/>
+						<parameter usageKind="input" name="input"/>
+					</data>
+				</component>
+				<component name="accord" library="core" uid="58" kind="7">
+					<sources>
+						<datapoint pos="0" key="8"/>
+					</sources>
+					<view ltx="759" lty="125" rbx="821" rby="163"/>
+					<data>
+						<output datatype="string"/>
+						<parameter usageKind="output" name="accord"/>
+					</data>
+				</component>
+				<component name="constant" library="core" uid="54" kind="2">
+					<targets>
+						<datapoint pos="0" key="3"/>
+					</targets>
+					<view ltx="267" lty="195" rbx="312" rby="212"/>
+					<data>
+						<constant value="," datatype="string"/>
+					</data>
+				</component>
+				<component name="tokenize" library="core" uid="55" kind="5">
+					<sources>
+						<datapoint pos="0" key="5"/>
+						<datapoint pos="1" key="4"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1"/>
+					</targets>
+					<view ltx="386" lty="125" rbx="480" rby="179"/>
+				</component>
+				<component name="normalize-space" library="core" uid="56" kind="5">
+					<sources>
+						<datapoint pos="0" key="2"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="6"/>
+					</targets>
+					<view ltx="551" lty="125" rbx="661" rby="163"/>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="1">
+						<edges>
+							<edge vertexkey="2"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="3">
+						<edges>
+							<edge vertexkey="4"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="7">
+						<edges>
+							<edge vertexkey="5"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="6">
+						<edges>
+							<edge vertexkey="8"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+	<component name="top_notes" library="user" uid="69" inline="1" editable="1" blackbox="0">
+		<structure>
+			<children>
+				<component name="constant" library="core" uid="70" kind="2">
+					<targets>
+						<datapoint pos="0" key="3"/>
+					</targets>
+					<view ltx="300" lty="70" rbx="345" rby="87"/>
+					<data>
+						<constant value="," datatype="string"/>
+					</data>
+				</component>
+				<component name="tokenize" library="core" uid="71" kind="5">
+					<sources>
+						<datapoint pos="0" key="5"/>
+						<datapoint pos="1" key="4"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1"/>
+					</targets>
+					<view ltx="419" rbx="513" rby="54"/>
+				</component>
+				<component name="normalize-space" library="core" uid="72" kind="5">
+					<sources>
+						<datapoint pos="0" key="2"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="6"/>
+					</targets>
+					<view ltx="584" rbx="694" rby="38"/>
+				</component>
+				<component name="note" library="core" uid="74" kind="7">
+					<sources>
+						<datapoint pos="0" key="7"/>
+					</sources>
+					<view ltx="794" rbx="846" rby="38"/>
+					<data>
+						<output datatype="string"/>
+						<parameter usageKind="output" name="note"/>
+					</data>
+				</component>
+				<component name="input" library="core" uid="73" kind="6">
+					<sources>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="8"/>
+					</targets>
+					<view ltx="148" rbx="233" rby="38"/>
+					<data>
+						<input datatype="string"/>
+						<parameter usageKind="input" name="input"/>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="1">
+						<edges>
+							<edge vertexkey="2"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="3">
+						<edges>
+							<edge vertexkey="4"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="8">
+						<edges>
+							<edge vertexkey="5"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="6">
+						<edges>
+							<edge vertexkey="7"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+	<component name="middle_notes" library="user" uid="76" inline="1" editable="1" blackbox="0">
+		<structure>
+			<children>
+				<component name="constant" library="core" uid="77" kind="2">
+					<targets>
+						<datapoint pos="0" key="3"/>
+					</targets>
+					<view ltx="300" lty="70" rbx="345" rby="87"/>
+					<data>
+						<constant value="," datatype="string"/>
+					</data>
+				</component>
+				<component name="tokenize" library="core" uid="78" kind="5">
+					<sources>
+						<datapoint pos="0" key="5"/>
+						<datapoint pos="1" key="4"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1"/>
+					</targets>
+					<view ltx="419" rbx="513" rby="54"/>
+				</component>
+				<component name="normalize-space" library="core" uid="79" kind="5">
+					<sources>
+						<datapoint pos="0" key="2"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="6"/>
+					</targets>
+					<view ltx="584" rbx="694" rby="38"/>
+				</component>
+				<component name="note" library="core" uid="81" kind="7">
+					<sources>
+						<datapoint pos="0" key="7"/>
+					</sources>
+					<view ltx="794" rbx="846" rby="38"/>
+					<data>
+						<output datatype="string"/>
+						<parameter usageKind="output" name="note"/>
+					</data>
+				</component>
+				<component name="input" library="core" uid="80" kind="6">
+					<sources>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="8"/>
+					</targets>
+					<view ltx="103" rbx="188" rby="38"/>
+					<data>
+						<input datatype="string"/>
+						<parameter usageKind="input" name="input"/>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="1">
+						<edges>
+							<edge vertexkey="2"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="3">
+						<edges>
+							<edge vertexkey="4"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="8">
+						<edges>
+							<edge vertexkey="5"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="6">
+						<edges>
+							<edge vertexkey="7"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+	<component name="base_notes" library="user" uid="83" inline="1" editable="1" blackbox="0">
+		<structure>
+			<children>
+				<component name="constant" library="core" uid="84" kind="2">
+					<targets>
+						<datapoint pos="0" key="3"/>
+					</targets>
+					<view ltx="300" lty="70" rbx="345" rby="87"/>
+					<data>
+						<constant value="," datatype="string"/>
+					</data>
+				</component>
+				<component name="normalize-space" library="core" uid="85" kind="5">
+					<sources>
+						<datapoint pos="0" key="2"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="6"/>
+					</targets>
+					<view ltx="584" rbx="694" rby="38"/>
+				</component>
+				<component name="tokenize" library="core" uid="86" kind="5">
+					<sources>
+						<datapoint pos="0" key="5"/>
+						<datapoint pos="1" key="4"/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="1"/>
+					</targets>
+					<view ltx="419" rbx="513" rby="54"/>
+				</component>
+				<component name="note" library="core" uid="88" kind="7">
+					<sources>
+						<datapoint pos="0" key="7"/>
+					</sources>
+					<view ltx="794" rbx="846" rby="38"/>
+					<data>
+						<output datatype="string"/>
+						<parameter usageKind="output" name="note"/>
+					</data>
+				</component>
+				<component name="input" library="core" uid="87" kind="6">
+					<sources>
+						<datapoint/>
+					</sources>
+					<targets>
+						<datapoint pos="0" key="8"/>
+					</targets>
+					<view ltx="122" rbx="207" rby="38"/>
+					<data>
+						<input datatype="string"/>
+						<parameter usageKind="input" name="input"/>
+					</data>
+				</component>
+			</children>
+			<graph directed="1">
+				<edges/>
+				<vertices>
+					<vertex vertexkey="1">
+						<edges>
+							<edge vertexkey="2"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="3">
+						<edges>
+							<edge vertexkey="4"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="8">
+						<edges>
+							<edge vertexkey="5"/>
+						</edges>
+					</vertex>
+					<vertex vertexkey="6">
+						<edges>
+							<edge vertexkey="7"/>
+						</edges>
+					</vertex>
+				</vertices>
+			</graph>
+		</structure>
+	</component>
+</mapping>
